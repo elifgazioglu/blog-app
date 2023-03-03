@@ -6,8 +6,8 @@ const Login = () => {
     <div className="auth">
       <h1>Login</h1>
       <form>
-        <input type="text" placeholder="username" />
-        <input type="password" placeholder="paassword" />
+        <input required type="text" placeholder="username" />
+        <input required type="password" placeholder="paassword" />
         <button>Login</button>
         <p>This is an error!</p>
         <span>
